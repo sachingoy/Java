@@ -18,7 +18,6 @@ public class TwoSum {
             }
             comp.put(nums[i], i);
         }
-
         return new int[]{index1, index2};
     }
 }
